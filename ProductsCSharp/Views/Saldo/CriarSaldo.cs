@@ -22,7 +22,7 @@ namespace Views
             );
 
             Controllers.Saldo.CriarSaldo(saldo);
-            MessageBox.Show("Saldo foi registrado com sucesso!");
+            MessageBox.Show("Saldo foi registrado !");
 
             ClearForm();
 
