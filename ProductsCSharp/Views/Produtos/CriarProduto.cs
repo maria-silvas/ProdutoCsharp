@@ -19,7 +19,7 @@ namespace Views
             );
 
             Controllers.Produto.CriarProduto(produto);
-            MessageBox.Show("Produto foi registrado com sucesso!");
+            MessageBox.Show("Produto foi registrado !");
 
             ClearForm();
 
