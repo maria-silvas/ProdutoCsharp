@@ -16,7 +16,7 @@ namespace Views
             );
 
             Controllers.Almoxarifado.CriarAlmoxarifado(almoxarifado);
-            MessageBox.Show("Almoxarifado foi registrado com sucesso!");
+            MessageBox.Show("Almoxarifado foi registrado!");
 
             ClearForm();
 
