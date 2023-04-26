@@ -17,7 +17,7 @@ namespace Views{
             almoxarifado.Nome = txtName.Text;
 
             Controllers.Almoxarifado.AtualizarAlmoxarifado(almoxarifado);
-            MessageBox.Show("O almoxarifado foi alterado com sucesso!");
+            MessageBox.Show("O almoxarifado foi alterado!");
 
             Views.ListarAlmoxarifado AlmoxarifadoList = Application.OpenForms.OfType<Views.ListarAlmoxarifado>().FirstOrDefault();
             if (AlmoxarifadoList != null){
