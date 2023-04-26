@@ -26,7 +26,7 @@ namespace Views
             saldo.Quantidade = Convert.ToInt32(txtQuantidade.Text);
 
             Controllers.Saldo.AtualizarSaldo(saldo);
-            MessageBox.Show("O saldo foi alterado com sucesso!");
+            MessageBox.Show("O saldo foi alterado !");
 
             Views.ListarSaldo SaldoList = Application.OpenForms.OfType<Views.ListarSaldo>().FirstOrDefault();
             if (SaldoList != null)
