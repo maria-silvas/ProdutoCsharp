@@ -20,7 +20,7 @@ namespace Views{
             produto.Preco = Convert.ToDecimal(txtPrice.Text);
 
             Controllers.Produto.AtualizarProduto(produto);
-            MessageBox.Show("O produto foi alterado com sucesso!");
+            MessageBox.Show("O produto foi alterado !");
 
             Views.ListarProduto ProdutoList = Application.OpenForms.OfType<Views.ListarProduto>().FirstOrDefault();
             if (ProdutoList != null){
