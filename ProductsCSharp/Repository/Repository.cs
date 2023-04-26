@@ -13,7 +13,7 @@ namespace MyProject.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Aqui voce troca o caminho pro teu banco de dados!!
-            var connectionString = "server=localhost;database=productscsharp;user=root;password=Wheniparkmyrr_1234";
+            var connectionString = "server=localhost;database=productscsharp;user=madu;password=madu";
             optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
         }
     }
