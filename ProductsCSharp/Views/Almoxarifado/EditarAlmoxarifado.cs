@@ -49,6 +49,7 @@ namespace Views{
             this.txtName.Size = new System.Drawing.Size(150, 20);
 
             this.btnRegister = new Button();
+            button.BackColor = Color.Blue;
             this.btnRegister.Text = "Registrar";
             this.btnRegister.Location = new System.Drawing.Point(80, 110);
             this.btnRegister.Size = new System.Drawing.Size(150, 35);
