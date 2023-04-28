@@ -24,6 +24,7 @@ namespace Views {
             RefreshList();
 
             Button btnAdd = new Button();
+            button.BackColor = Color.Green;
             btnAdd.Text = "Adicionar";
             btnAdd.Size = new Size(100, 30);
             btnAdd.Location = new Point(50, 270);
@@ -31,6 +32,7 @@ namespace Views {
             this.Controls.Add(btnAdd);
 
             Button btnEdit = new Button();
+            button.BackColor = Color.Yellow;
             btnEdit.Text = "Editar";
             btnEdit.Size = new Size(100, 30);
             btnEdit.Location = new Point(170, 270);
@@ -38,6 +40,7 @@ namespace Views {
             this.Controls.Add(btnEdit);
 
             Button btnDelete = new Button();
+            button.BackColor = Color.Red;
             btnDelete.Text = "Deletar";
             btnDelete.Size = new Size(100, 30);
             btnDelete.Location = new Point(290, 270);
@@ -46,6 +49,7 @@ namespace Views {
 
 
             Button btnClose = new Button();
+            button.BackColor = Color.Purple;
             btnClose.Text = "Sair";
             btnClose.Size = new Size(100, 30);
             btnClose.Location = new Point(550, 270);
