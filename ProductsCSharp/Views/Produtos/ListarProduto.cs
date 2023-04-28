@@ -14,9 +14,9 @@ namespace Views{
             listProducts.Size = new Size(605, 180);
             listProducts.Location = new Point(50, 50);
             listProducts.View = View.Details;
-            listProducts.Columns.Add("ID", 50);
+            listProducts.Columns.Add("Id", 50);
             listProducts.Columns.Add("Nome", 100);
-            listProducts.Columns.Add("Preço", 100);
+            listProducts.Columns.Add("Preço R$", 150);
             listProducts.Columns[0].Width = 30;
             listProducts.Columns[1].Width = 100;
             listProducts.Columns[2].Width = 80;
@@ -26,6 +26,7 @@ namespace Views{
             RefreshList();
 
             Button btnAdd = new Button();
+            button.BackColor = Color.Green;
             btnAdd.Text = "Adicionar";
             btnAdd.Size = new Size(100, 30);
             btnAdd.Location = new Point(50, 270);
@@ -33,6 +34,7 @@ namespace Views{
             this.Controls.Add(btnAdd);
 
             Button btnEdit = new Button();
+            button.BackColor = Color.Yellow;
             btnEdit.Text = "Editar";
             btnEdit.Size = new Size(100, 30);
             btnEdit.Location = new Point(170, 270);
@@ -40,6 +42,7 @@ namespace Views{
             this.Controls.Add(btnEdit);
 
             Button btnDelete = new Button();
+            button.BackColor = Color.Red;
             btnDelete.Text = "Deletar";
             btnDelete.Size = new Size(100, 30);
             btnDelete.Location = new Point(290, 270);
@@ -48,6 +51,7 @@ namespace Views{
 
 
             Button btnClose = new Button();
+            button.BackColor = Color.Blue;
             btnClose.Text = "Sair";
             btnClose.Size = new Size(100, 30);
             btnClose.Location = new Point(550, 270);
