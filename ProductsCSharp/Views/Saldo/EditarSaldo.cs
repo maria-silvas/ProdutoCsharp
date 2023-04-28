@@ -80,6 +80,7 @@ namespace Views
             this.txtQuantidade.Size = new System.Drawing.Size(150, 20);
 
             this.btnEdit = new Button();
+            button.BackColor = Color.Yellow;
             this.btnEdit.Text = "Alterar";
             this.btnEdit.Location = new System.Drawing.Point(170, 150);
             this.btnEdit.Size = new System.Drawing.Size(150, 35);
